@@ -28,7 +28,7 @@ FIRE = False
 
 # load the model
 print("[INFO] loading model...")
-MODEL_PATH = '/home/priya/Documents/Final_year project/Inferno-Realtime-Fire-detection-using-CNNs-master/saved_model/raks_model14.h5'
+MODEL_PATH = '/home/priya/Documents/Final_year project/Inferno-Realtime-Fire-detection-using-CNNs-master/saved_model/fireDetect.h5'
 model = keras.models.load_model(MODEL_PATH)
 
 # initialize the video stream and allow the camera sensor to warm up
